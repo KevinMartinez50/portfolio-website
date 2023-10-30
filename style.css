@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&family=Share+Tech&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #12101c;
+  color: #fff;
+}
+
+h1 {
+  font-size: 45px;
+}
+.nav {
+  background-color: #2c3333;
+}
+ul {
+  list-style-type: none;
+}
+.nav li {
+  margin: 5px;
+  inline-size: none;
+  font-size: 18px;
+  display: inline;
+  float: right;
+  margin-inline-end: 50px;
+}
+.nav li a {
+  text-decoration: none;
+  color: #e7f6f2;
+}
+.nav li a:hover {
+  text-decoration: none;
+  background: -webkit-linear-gradient(#f30067, #d900ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero-container {
+  display: flex;
+  justify-content: center;
+  padding: 0 3% 0 15%;
+}
+.hero {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  color: #f30067;
+  padding: 0.5em;
+}
+.hero h1 {
+  font-size: 70px;
+  background: -webkit-linear-gradient(#f30067, #d900ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner .text {
+  position: absolute;
+  font-size: 40px;
+  top: 160px;
+  left: 60px;
+}
+.banner .text span {
+  color: #f30067;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-size: 20px;
+}
+.shape {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  z-index: -1;
+  width: 540px;
+  height: 430px;
+  background-image: linear-gradient(10deg, #f30067, #d900ff);
+  border-radius: 90% 10% 55% 45% / 52% 28% 72% 48%;
+}
+
+.about-container {
+  padding: 0 0 0 15%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.about-container p {
+  width: 50%;
+}
+/* experience */
+.experience-container h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.experience {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.logos {
+  font-size: 80px;
+}
+/* projects here */
+.project-container h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+
+.card {
+  margin-bottom: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.card img {
+  width: 90%;
+  margin: 45px;
+}
+
+.card-text {
+  margin: 5%;
+}
+
+.card-text a {
+  color: #fff;
+  font-size: 45px;
+  margin: 5px;
+}
+
+.card-text a:hover {
+  color: #f30067;
+}
